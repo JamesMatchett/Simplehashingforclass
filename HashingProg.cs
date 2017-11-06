@@ -13,7 +13,7 @@ namespace ConsoleApplication1
             Console.WriteLine("Enter number of names to be stored");
             int NumberOfNames = Convert.ToInt32(Console.ReadLine());
 
-            List<string> myList = new List<string>();
+          
 
              string[,] Names = new String[NumberOfNames,2];
 
