@@ -26,9 +26,9 @@ namespace ConsoleApplication1
                 int hashvalue = 0;
 
 
-                for (int charNumber = 0; charNumber <= (name.Length - 1); charNumber++)
+                for (int charNumber = 1; charNumber <= (name.Length - 1); charNumber++)
                 {
-                    hashvalue = hashvalue + (Convert.ToByte(name[charNumber]) * charNumber);
+                    hashvalue = hashvalue + (Convert.ToByte(name[charNumber-1]) * charNumber);
 
                 }
 
